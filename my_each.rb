@@ -22,4 +22,6 @@ def my_each(words)
   words
 end 
 
-
+# this actually returns the original array
+# defensive programming
+# real-life example of this is rspec
