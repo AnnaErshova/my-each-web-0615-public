@@ -25,3 +25,11 @@ end
 # this actually returns the original array
 # defensive programming
 # real-life example of this is rspec
+
+# yield is a way of abstracting blocks
+# is one has three numbers, different users can do different things to those three numbers, 
+# like add them up, mulitple them, square them etc
+# yield allows one to go through n elements in an array one at a time
+# users later on can choose what to do with those elements
+# yielding = deferring execution
+# blocks are for injecting a different procedure into a known sets of instructions
